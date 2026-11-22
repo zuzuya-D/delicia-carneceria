@@ -1,0 +1,23 @@
+# Next.js
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+
+# Dependencias
+node_modules/
+
+# Variables secretas
+.env
+.env.local
+.env*.local
+
+# Archivos temporales y del sistema
+*.log
+*.tmp
+~$*
+desktop.ini
+*.lnk
+
+# Capturas de pruebas del navegador
+.playwright-mcp/
